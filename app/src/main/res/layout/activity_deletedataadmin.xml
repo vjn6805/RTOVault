@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/deleteadmin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".deletedataadmin">
+
+    <EditText
+        android:id="@+id/edtnumber"
+        android:layout_width="352dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="392dp"
+        android:background="@drawable/edittext_border"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="Enter Vehical Number"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="#645757"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnupload"
+        android:layout_width="352dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@color/green"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Delete Data"
+        android:textAppearance="@font/poppins_semibold"
+        android:textSize="18sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtnumber" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

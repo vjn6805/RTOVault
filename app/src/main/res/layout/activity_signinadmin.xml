@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/login2"
+    tools:context=".signinadmin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in as Admin "
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="#000000"/>
+
+
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Official Email"
+        android:textSize="16dp"
+        android:backgroundTint="#6F6F6F"
+        android:fontFamily="@font/poppins"
+        android:layout_marginEnd="120dp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:autofillHints="emailAddress"
+        android:id="@+id/edtadminemail"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edittext_border"
+        android:hint="ex: johndoe@gmail.com"
+        android:padding="10dp"
+        android:elevation="10dp"
+        android:textSize="15dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins"/>
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="16dp"
+        android:backgroundTint="#6F6F6F"
+        android:fontFamily="@font/poppins"
+        android:layout_marginEnd="135dp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:autofillHints="password"
+        android:id="@+id/edtadminpass"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext_border"
+
+        android:hint="********"
+        android:padding="10dp"
+        android:elevation="10dp"
+        android:textSize="15dp"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:fontFamily="@font/poppins"/>
+
+    <Button
+        android:id="@+id/btnadminsignin"
+        android:layout_width="352dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/green"
+        app:cornerRadius="10dp"
+        android:text="Sign In"
+        android:textSize="18sp"
+        android:textAppearance="@font/poppins_semibold"
+        android:fontFamily="@font/poppins_semibold" />
+
+    <TextView
+        android:id="@+id/usersignin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in as User"
+        android:textSize="16dp"
+        android:textColor="#888888"
+        android:backgroundTint="#6F6F6F"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

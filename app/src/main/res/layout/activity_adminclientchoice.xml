@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clientadminchoice"
+    tools:context=".adminclientchoice">
+
+    <Button
+        android:id="@+id/btnclient"
+        android:layout_width="352dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/green"
+        app:cornerRadius="10dp"
+        android:text="Sign In as User"
+        android:textSize="18sp"
+        android:textAppearance="@font/poppins_semibold"
+        android:fontFamily="@font/poppins_semibold" />
+
+    <Button
+        android:id="@+id/btnadmin"
+        android:layout_width="352dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/green"
+        app:cornerRadius="10dp"
+        android:text="Sign In as Admin"
+        android:textSize="18sp"
+        android:textAppearance="@font/poppins_semibold"
+        android:fontFamily="@font/poppins_semibold" />
+
+</LinearLayout>
